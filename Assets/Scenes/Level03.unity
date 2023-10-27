@@ -695,6 +695,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3732985078166361253, guid: 5bd90ed2beaf620428fcd66100bd956b, type: 3}
+      propertyPath: wall
+      value: 
+      objectReference: {fileID: 1741903316}
     - target: {fileID: 4203863629041964400, guid: 5bd90ed2beaf620428fcd66100bd956b, type: 3}
       propertyPath: m_Name
       value: Barricade (1)
@@ -756,11 +760,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bd90ed2beaf620428fcd66100bd956b, type: 3}
---- !u!1 &1136348434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4203863629041964400, guid: 5bd90ed2beaf620428fcd66100bd956b, type: 3}
-  m_PrefabInstance: {fileID: 1136348433}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1201672550 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6433276559341534093, guid: b6ada702b1724ac4396ff2d8d3663bb0, type: 3}
@@ -1038,8 +1037,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72a7c4ecd58c13f4db1754e652eafab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wall: {fileID: 1136348434}
-  isDone: 0
+  wall: {fileID: 1741903316}
+  isDone: 1
 --- !u!61 &1741903321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1324,6 +1323,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3732985078166361253, guid: 5bd90ed2beaf620428fcd66100bd956b, type: 3}
+      propertyPath: wall
+      value: 
+      objectReference: {fileID: 1741903316}
     - target: {fileID: 4203863629041964400, guid: 5bd90ed2beaf620428fcd66100bd956b, type: 3}
       propertyPath: m_Name
       value: Barricade
@@ -1393,7 +1396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1011721189986535549, guid: c02e210a6156aa44a8da99e9e8ca5ae3, type: 3}
       propertyPath: runSpeed
-      value: 40
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1521470010528405046, guid: c02e210a6156aa44a8da99e9e8ca5ae3, type: 3}
       propertyPath: m_Name
